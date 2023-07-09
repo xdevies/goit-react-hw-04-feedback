@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Section.module.css';
 
 export function Section({ title, children }) {
-    return (
+    return  (
         <>
             <h1 className={css.feedbackTitle}>{title}</h1>
             {children}
@@ -10,4 +10,4 @@ export function Section({ title, children }) {
     );
 }
 
-Section.propTypes = { title: PropTypes.string.isRequired };
+Section.propTypes = { title: PropTypes.string.isRequired  };
